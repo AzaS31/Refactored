@@ -12,7 +12,7 @@ public class Teacher extends User implements Comparable<Teacher> {
 
     @Override
     public String toString() {
-        return "Student{" +
+        return "Teacher{" +
                 "teacherId='" + teacherId +  '\'' + " " + super.toString() +
                 '}';
     }

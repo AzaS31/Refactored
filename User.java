@@ -9,6 +9,7 @@ public class User {
         this.lastName = lastName;
     }
 
+    
     public String getFirstName() {
         return firstName;
     }
@@ -27,8 +28,17 @@ public class User {
 
     @Override
     public String toString() {
-        return "Student{" +
+        return "User{" +
                 "firstName='" + firstName + '\'' + ", secondName=" + secondName + '\'' + ", lastName=" + lastName + '\'' +
                 '}';
+    }
+
+    public void setSecondName(String secondName) {
+        this.secondName = secondName;
+    }
+
+
+    public void setLastName(String lastName) {
+        this.lastName = lastName;
     }
 }
